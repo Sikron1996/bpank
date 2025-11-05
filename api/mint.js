@@ -2,17 +2,17 @@
 export default async function handler(req, res) {
   res.status(402).json({
     x402Version: 1,
-    payer: "0xc7a41a4c6ed9a7abc0457938126668bf366e44ed", // same as payTo/treasury
+    payer: "0xF97a410f2f0b64Cb5820baD63d878c3A967235AA", // same as payTo/treasury
 
     accepts: [
       {
         scheme: "exact",
         network: "base",
         maxAmountRequired: "1000000", // 1 USDC (6 decimals)
-        resource: "https://banana-x402.vercel.app/api/mint",
-        description: "Mint 5,000 BANANA for 1 USDC on Base.",
+        resource: "https://bpank.vercel.app/api/mint",
+        description: "Mint for 1 USDC on Base.",
         mimeType: "application/json",
-        payTo: "0xc7a41a4c6ed9a7abc0457938126668bf366e44ed",
+        payTo: "0xF97a410f2f0b64Cb5820baD63d878c3A967235AA",
         asset: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // USDC on Base
         maxTimeoutSeconds: 60,
 
