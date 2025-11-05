@@ -5,10 +5,10 @@
       "scheme": "exact",
       "network": "base",
       "maxAmountRequired": "1000000",
-      "resource": "https://banana-x402.vercel.app/api/mint",
-      "description": "Mint 5,000 BANANA per 1 USDC on Base.",
+      "resource": "https://bpank.vercel.app/api/mint",
+      "description": "Mint per 1 USDC on Base.",
       "mimeType": "",
-      "payTo": "0xC7a41a4c6ed9a7abc0457938126668bf366e44ed",
+      "payTo": "0xF97a410f2f0b64Cb5820baD63d878c3A967235AA",
       "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "maxTimeoutSeconds": 60,
       "outputSchema": {
