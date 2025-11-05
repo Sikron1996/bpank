@@ -1,0 +1,10 @@
+{
+  "name": "banana-x402",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev --yes",
+    "build": "echo \"no build step\""
+  },
+  "dependencies": {}
+}
