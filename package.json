@@ -1,10 +1,10 @@
 {
-  "name": "banana-x402",
+  "name": "banana-x402-fixed-v2",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vercel dev --yes",
-    "build": "echo \"no build step\""
+    "dev": "vercel dev",
+    "start": "node api/mint.js"
   },
   "dependencies": {}
 }
